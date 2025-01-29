@@ -1,0 +1,13 @@
+let a=5;
+//console.log(a=b);
+console.log(a+=4);//9
+a=5;
+console.log(a-=4);//1
+a=5;
+console.log(a*=4);//20
+a=5;
+console.log(a/=4);//1.25
+a=5;
+console.log(a%=4);//1
+a=5;
+console.log(a**=4);//625

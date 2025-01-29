@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assect/image/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height:70vh;
+    position: relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top:0;
+    background-color: black;
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 300px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'Martel sans',sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 30px;
+}
+.hero :nth-child(1){
+    /* font-style: normal; */
+    font-weight: 'Poppins',sans-serif;
+    font-weight: bolder;
+    font-size: 150px;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    text-align: center;
+    
+}
+.separation{
+    height: 11px;
+    background-color: grey;
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    color:white;
+    background-color:rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor:pointer;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    color:white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23,23,0.7);
+    background-color: rgba(23, 23,23,0.5);
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+}

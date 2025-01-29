@@ -1,0 +1,17 @@
+h1#child{
+    color: blue;
+}
+
+div.division#parent h1.heading#child{
+    color: aqua;
+}
+
+#parent h1.heading#child{
+    color: aqua;
+}
+.headingOne.headingTwo{
+    color: blueviolet;
+}
+.headingOne.headingTwo{
+    color: brown;
+}

@@ -1,0 +1,9 @@
+p{
+    display: inline-block;
+    color: aqua;
+}
+
+span{
+    display: block;
+    color: blue;
+}

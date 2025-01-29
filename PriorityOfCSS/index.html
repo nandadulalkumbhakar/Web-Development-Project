@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priority of CSS</title>
+    <style>
+        
+        .orange{
+            color: blue;
+        }
+        .red{
+            color: aqua;
+        }
+        h1{
+            color: red;
+        }/* class has more priority than h1 tag */
+        /* In case of priority         Inline style> Id Selector> class or Attribute selector >Element selector > universal selector   */
+    </style>
+</head>
+<body>
+    <h1 class="red orange">I am Nanda</h1>
+</body>
+</html>

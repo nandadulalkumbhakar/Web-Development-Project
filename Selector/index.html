@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element selector */
+        span{
+            background-color: darkgoldenrod;
+        }
+        /* id selector */
+        #red{ 
+            color: red;
+            background-color: aqua;
+        }
+        /* class selector */
+        .blue{
+            color: blueviolet;
+            background-color: chocolate;
+        }
+        /* child selector */
+        div > p{
+            background-color:red;
+        }
+        /* descendant selector */
+        div p{
+            background-color:cadetblue;
+        }
+        /* universal selector */
+        *{
+            margin: 0%;
+        }
+        a:active{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <span>
+        its a Element selector
+    </span>
+    <div id="red">
+        color red
+    </div>
+    <div>
+        color red
+    </div>
+    <h1 class="blue">color is blue</h1>
+    <div>
+        <p>
+            p is a clild class of div class
+        </p>
+    </div>
+    <div>
+        <span>
+            <p>
+                p is a grand clild class of div class
+            </p>
+        </span>
+    </div>
+    <a href="https://www.google.com">Google</a>
+</body>
+</html>
