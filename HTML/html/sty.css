@@ -1,0 +1,21 @@
+
+        /* h1{
+            color:aquamarine;
+        }
+        h2{
+            color:blueviolet;
+        } */
+        .style1{/*class selector */
+                color: rgb(119, 193, 119);
+        }
+        .style2{
+            color: blue;
+        }
+        #myid{
+            height: 300px;
+            width: 500px;
+            background-color: yellow;
+        }
+        .box{
+            
+        }

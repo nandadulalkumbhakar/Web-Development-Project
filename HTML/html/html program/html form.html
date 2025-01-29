@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form id="surveyForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>How would you rate our service?</label><br>
+        <input type="radio" id="excellent" name="rating" value="excellent">Excellent
+        <input type="radio" id="veryGood" name="rating" value="veryGood">Very Good
+        <input type="radio" id="good" name="rating" value="good">Good
+        <input type="radio" id="fair" name="rating" value="fair">Fair
+        <input type="radio" id="poor" name="rating" value="poor">Poor<br><br>
+
+        <label>What features did you like about our product?</label><br>
+        <input type="checkbox" id="quality" name="features" value="quality">Quality
+        <input type="checkbox" id="price" name="features" value="price">Price
+        <input type="checkbox" id="usability" name="features" value="usability">User-Friendliness
+        <input type="checkbox" id="design" name="features" value="design">Design
+        <input type="checkbox" id="support" name="features" value="support">Customer Support<br><br>
+
+        <label for="comments">Any additional comments or suggestions?</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <label for="source">How did you hear about us?</label><br>
+        <select id="source" name="source">
+            <option value="advertisement">Advertisement</option>
+            <option value="socialMedia">Social Media</option>
+            <option value="referral">Referral</option>
+            <option value="searchEngine">Search Engine</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="date">Date of your most recent purchase:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

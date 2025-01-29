@@ -1,0 +1,35 @@
+/*
+Universal selector
+tag selector
+Id selector
+class selector
+mix selector
+special selector
+*/
+/* tag selector */
+/* h1{
+    columns: red;
+}
+p{
+    color: blue;
+} */
+
+/* class selector */
+/* .heading {
+    color: red;
+}
+.paragraph{
+    color: blue;
+} */
+ /* id selector */
+ /* #head
+ {
+    color: aqua;
+ } */
+  /* mix selector */
+/* h1.heading{
+    color: blanchedalmond;
+    h1#head{
+        color: aliceblue;
+    }
+} */
